@@ -1,24 +1,26 @@
 module.exports = {
-  // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
+    title: `My Blogs`,
+    author: `Wanjing Chen`,
     description: `My site description...`,
+    siteUrl: `https://cwjwanjing.github.io/`,
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        name: `instagram`,
+        url: `https://www.instagram.com/wanjingchen_/`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/CWJWANJING`,
       },
     ],
   },
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+        basePath: `/blog`
+      },
     },
   ],
 }

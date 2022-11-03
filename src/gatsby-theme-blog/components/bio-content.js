@@ -8,9 +8,7 @@ import { Themed } from "theme-ui"
 export default function Bio() {
   return (
     <>
-      This is where <Themed.a href="http://example.com/">your name</Themed.a>
-      {` `}
-      goes.
+      <Themed.a href="https://cwjwanjing.github.io/">Wanjing</Themed.a>
       <br />
       Or whatever, you make the rules.
     </>
