@@ -10,7 +10,7 @@ export default function Bio() {
     <>
       <Themed.a href="https://cwjwanjing.github.io/">Wanjing</Themed.a>
       <br />
-      Or whatever, you make the rules.
+      A software developer who draws.
     </>
   )
 }

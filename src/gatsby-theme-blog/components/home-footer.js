@@ -1,10 +1,11 @@
 import React, { Fragment } from "react"
-import { Themed, css } from "theme-ui"
+import { Themed} from "theme-ui"
 
 const NewFooter = ({ socialLinks }) => (
   <>
   @Wanjing Chen 
-  {`  `}
+  {` `}&bull;
+  {` `}
   {socialLinks
     ? socialLinks.map((platform, i, arr) => (
         <Fragment key={platform.url}>
