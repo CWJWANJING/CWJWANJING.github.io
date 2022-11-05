@@ -1,0 +1,20 @@
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+  background-color: #F8F5FA;
+  color: #6495ed;
+}
+
+.css-ui2hyo-Header {
+    display: none;
+}
+
+.navbar {
+    background-color: #6495ed;
+}
+
+.nav-link {
+    color: #F8F5FA;
+}

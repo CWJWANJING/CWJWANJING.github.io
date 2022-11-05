@@ -10,7 +10,7 @@ function Me() {
             placeholder="blurred"
             
             css={css`
-                border: 4px green dashed;
+                border-radius: 50%;
                 margin-left: 40%;
                 margin-right: 40%;
                 width: 20%;
