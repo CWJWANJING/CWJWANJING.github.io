@@ -22,5 +22,8 @@ module.exports = {
         basePath: `/blog`
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }

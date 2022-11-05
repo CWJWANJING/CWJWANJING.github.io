@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navigation from "../components/Navigation"
-import BigAvatar from "../components/BigAvatar"
+import Me from "../components/Me"
 
 export default function home() {
   return (
@@ -8,7 +8,7 @@ export default function home() {
     <Navigation />
     <main>
       <h1>Wanjing Chen</h1>
-      <BigAvatar/>
+      <Me/>
       <p>Hi</p>
     </main>
     </>
