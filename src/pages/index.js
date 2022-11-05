@@ -1,11 +1,14 @@
 import * as React from "react"
-import Navigation from "../components/navbar"
+import Navigation from "../components/Navigation"
+import BigAvatar from "../components/BigAvatar"
 
 export default function home() {
   return (
-    <><Navigation />
+    <>
+    <Navigation />
     <main>
       <h1>Wanjing Chen</h1>
+      <BigAvatar/>
       <p>Hi</p>
     </main>
     </>

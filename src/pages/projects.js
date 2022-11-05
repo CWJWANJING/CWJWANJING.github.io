@@ -1,5 +1,5 @@
 import * as React from "react"
-import Navigation from "../components/navbar"
+import Navigation from "../components/Navigation"
 
 export default function projects() {
   return (

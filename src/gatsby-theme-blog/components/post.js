@@ -1,13 +1,11 @@
 import * as React from "react"
-import { getSrc } from "gatsby-plugin-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "gatsby-theme-blog/src/components/layout"
-import SEO from "gatsby-theme-blog/src/components/seo"
 import PostTitle from "gatsby-theme-blog/src/components/post-title"
 import PostDate from "gatsby-theme-blog/src/components/post-date"
 import PostFooter from "gatsby-theme-blog/src/components/post-footer"
 import PostHero from "gatsby-theme-blog/src/components/post-hero"
-import Navigation from "../../components/navbar"
+import Navigation from "../../components/Navigation"
 
 const Post = ({
   data: {
