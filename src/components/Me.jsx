@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { css } from "@emotion/react"
 
 function Me() {
     return (
@@ -7,9 +8,15 @@ function Me() {
             src={"../images/avatar.png"}
             alt="me"
             placeholder="blurred"
-            layout="fixed"
-            width={200}
-            height={200} />
+            
+            css={css`
+                border: 4px green dashed;
+                margin-left: 40%;
+                margin-right: 40%;
+                width: 20%;
+            `}
+            layout="constrained"
+            />
     )
 }
 
