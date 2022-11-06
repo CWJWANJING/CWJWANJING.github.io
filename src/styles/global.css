@@ -3,18 +3,30 @@ body,
 #___gatsby,
 #gatsby-focus-wrapper {
   height: 100%;
-  background-color: #F8F5FA;
-  color: #6495ed;
+  background-color: #fffaf2;
+  color: #4881ea;
 }
 
 .css-ui2hyo-Header {
     display: none;
 }
 
+.css-1ff5arq-PostLink {
+    color: #b579d2;
+}
+
+.css-0 {
+    color: #4881ea;
+}
+
+section {
+    color: #000000;
+}
+
 .navbar {
-    background-color: #6495ed;
+    background-color: #4881ea;
 }
 
 .nav-link {
-    color: #F8F5FA;
+    color: #fffaf2;
 }
