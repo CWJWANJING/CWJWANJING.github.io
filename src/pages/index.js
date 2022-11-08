@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation"
 import Me from "../components/Me"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import Artwork from "../components/Artwork"
 import Styled from "@emotion/styled"
 import "../styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -27,6 +28,7 @@ export default function home() {
       <P>Hi! My name is Wanjing. I'm a software developer who draws. Nice to meet you! 😊</P>
       <Blogs />
       <Projects />
+      <Artwork />
     </>
   )
 }
