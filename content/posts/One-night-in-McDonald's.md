@@ -13,7 +13,7 @@ I started to think back on my degree and even what I might have done differently
 ## One night in McDonald's
 On the 8th of September, 2016, I flew to the UK. It was 9ish in the evening when I arrived at Edinburgh airport. Just after I stepped outside the plane, I felt a chill in the air. Edinburgh evenings in September are cold. The moment when the customs officer stamped my passport, I knew my life of studying abroad had begun.
 
-![The image of me arriving the airport](/images/macdonald/airport.jpg)
+![The image of me arriving the airport](../assets/macdonald/airport.jpg)
 
 Since my university accommodation was available for checking in only from the 10th of September, and I was planning to familiarise myself with Edinburgh's environment earlier than that, I booked a hotel before my departure. Carrying my luggage; a big suitcase, a small suitcase and a backpack, I got in the taxi. I figured taking a taxi would be the safest choice for me, given that I knew nothing about Edinburgh’s buses and it was already dark. I didn't want to get lost. During the ride, the driver was friendly, introducing the tourist spots as we passed by them, such as this is the castle, this is Prince’s Street (the place for shopping) etc. When we reached the end of our conversation, I arrived at the hotel.
 
@@ -23,7 +23,7 @@ I took out my phone and showed him my booking confirmation letter, he had a glan
 
 After he read the confirmation letter thoroughly, we realised what the problem was. It's because I took the flight at 9:30 PM Chinese time on the 8th of September. My hotel booking was for the 9th of September. However, I’d forgotten to take into account time going backwards as I flew west, and so I had landed in Edinburgh still on the 8th of September! No wonder my name was not on the booking list…
 
-![The image of hotel staff telling me my name was not on the booking list](/images/macdonald/hotel.jpg)
+![The image of hotel staff telling me my name was not on the booking list](../assets/macdonald/hotel.jpg)
 
 My first time in the UK (alone!) and this unexpected thing happened; I was stunned into silence for a while. The first thing came to my mind was asking them if they have any rooms available tonight. They said no. Then I thought maybe I could ask them if I could stay in the lobby for tonight and check in tomorrow? Again they said no, probably because other customers might find a strange girl sleeping in the lobby off-putting.
 
@@ -33,7 +33,7 @@ One by one the hotels said no. I was wondering why I was so unlucky, why every h
 
 Since the number in the taximeter was increasing past 40 pounds and the time displayed on the phone was already twelve o'clock, I thought that I couldn't keep doing this any longer. I decided to stay at a 24-hour McDonald's. On the way there, I rechecked the booking confirmation letter, surprisingly, I realised it was actually a youth hostel. (There are very few youth hostels in China, so I assumed it was a hotel.) I wasn’t comfortable with the idea of living with strangers in a room, so I cancelled the booking, and booked another hotel for the next day.
 
-![The image of me staying at McDonald's](/images/macdonald/mcdonald.jpg)
+![The image of me staying at McDonald's](../assets/macdonald/mcdonald.jpg)
 
 From then, my 15-hour stay at McDonald's started. I felt really sleepy, but I forced myself to stay awake in case my luggage was stolen. I tried to comfort myself by thinking "thankfully I'm not staying on the street, and I still have food".
 
