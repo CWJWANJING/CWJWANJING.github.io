@@ -16,7 +16,7 @@ const Blogs = () => {
                     <div className="card-body">
                         <h5 className="card-title">How I travelled from the UK to China during the pandemic</h5>
                         <p className="card-text">Entering China during the pandemic is really hard. I will be sharing with you how I travelled from the UK to China during the pandemic as a Chinese citizen.</p>
-                        <a href="/blog/enterChinaduringCOVID/" class="btn btn-primary stretched-link">Read</a>
+                        <a href="/blog/enterChinaduringCOVID/" className="btn btn-primary stretched-link">Read</a>
                     </div>
                 </div>
                 <div className="col-lg-4 card">
