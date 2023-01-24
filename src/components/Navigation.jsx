@@ -6,8 +6,8 @@ import "../styles/global.css";
 const navItems = [
   {text: "Home", link: "/"},
   {text: "Projects", link: "/projects"},
-  {text: "Arts", link: "/art"},
-  {text: "Blog", link: "/blog"},
+  {text: "Art", link: "/art"},
+  {text: "Blogs", link: "/blog"},
 ]
 
 const Navigation = () => {

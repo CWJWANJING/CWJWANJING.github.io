@@ -5,6 +5,7 @@ body,
   height: 100%;
   background-color: #fffaf2;
   color: #4881ea;
+  --theme-ui-colors-primary: #b66881;
 }
 
 .css-ui2hyo-Header {
@@ -12,11 +13,11 @@ body,
 }
 
 .css-1xfcqgg {
-    color: #b76edb;
+    color: #b66881;
 }
 
 .css-1ff5arq-PostLink {
-    color: #b76edb;
+    color: #b66881;
 }
 
 .css-1gbxlat-PostDate {
