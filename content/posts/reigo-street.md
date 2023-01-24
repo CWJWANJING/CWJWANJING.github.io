@@ -17,7 +17,7 @@ In high school, I lived in a room of four, and we shared a bathroom. That's usua
 ## Riego Street
 The Riego Street complex forms a U shape; my building was in the middle. When I arrived at the accommodation I saw a big yellow sign which had the University of Edinburgh's logo on it, and 'Riego Street' in big letters. My accommodation is here!
 
-![riego street university poster](../assets/reigo/riegostreet.jpg)
+![riego street poster](../assets/reigo/riegostreet.jpg)
 
 When I stood at the entrance, I saw many volunteers (most of them were students from higher years), and a red door leading to the reception. A volunteer took me through and gave me an information pack. All the information I needed to know about the accommodation was in there. Then I followed the volunteer to my flat door. After handing me the key, he left.
 
