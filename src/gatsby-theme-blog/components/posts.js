@@ -5,8 +5,8 @@ import PostList from "gatsby-theme-blog/src/components/post-list"
 import Navigation from "../../components/Navigation"
 
 const NewPosts = ({ location, posts, siteTitle, socialLinks }) => (
-    <>
-    <Navigation/>
+  <>
+    <Navigation />
     <Layout location={location} title={siteTitle}>
       <h1>My Blogs</h1>
       <main>
@@ -14,7 +14,7 @@ const NewPosts = ({ location, posts, siteTitle, socialLinks }) => (
       </main>
       <Footer socialLinks={socialLinks} />
     </Layout>
-    </>
+  </>
 )
 
 export default NewPosts
