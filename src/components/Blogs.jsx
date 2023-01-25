@@ -20,19 +20,20 @@ const Blogs = () => {
                     </div>
                 </div>
                 <div className="col-lg-4 card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <StaticImage className="card-img-top" src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/reigo/riegostreet.jpg"} alt="Riego Street Poster" />
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 className="card-title">An international student in Edinburgh - Part 2</h5>
+                        <p className="card-text">I didn’t get my first choice of accommodation at the University of Edinburgh, 
+                            I ended up in Riego Street, but I had a good experience. Let me tell you more about it!</p>
+                        <a href="/blog/Riego-street/" className="btn btn-primary stretched-link">Read</a>
                     </div>
                 </div>
                 <div className="col-lg-4 card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <StaticImage className="card-img-top" src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/macdonald/airport.jpg"} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 className="card-title">An international student in Edinburgh - Part 1</h5>
+                        <p className="card-text">This is the story about how I spent my first evening in Edinburgh at a 24-hour MacDonald's.</p>
+                        <a href="/blog/Edinburgh/" className="btn btn-primary stretched-link">Read</a>
                     </div>
                 </div>
             </div>
