@@ -52,3 +52,12 @@ a {
 .card {
     margin-bottom: 2%;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    margin-top: 2%;
+}

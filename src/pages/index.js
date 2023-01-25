@@ -25,7 +25,7 @@ export default function home() {
       <Navigation />
       <h1 style={style}>Wanjing Chen</h1>
       <Me />
-      <P>Hi! My name is Wanjing. I'm a software developer who draws. Nice to meet you! 😊</P>
+      <P>Hi! My name is Wanjing. I'm a software developer who draws and writes. Nice to meet you! 😊</P>
       <Blogs />
       <Projects />
       <Artwork />
