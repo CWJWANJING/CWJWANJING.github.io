@@ -3,7 +3,7 @@ import "../styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { StaticImage } from "gatsby-plugin-image";
 
-const Artwork = () => {
+const HomeArtwork = () => {
     return (
         <div className="container">
             <h2 className="text-center">Artwork</h2>
@@ -37,4 +37,4 @@ const Artwork = () => {
     )
 }
 
-export default Artwork;
+export default HomeArtwork;

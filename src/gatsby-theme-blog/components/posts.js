@@ -8,7 +8,7 @@ const NewPosts = ({ location, posts, siteTitle, socialLinks }) => (
   <>
     <Navigation />
     <Layout location={location} title={siteTitle}>
-      <h1>My Blogs</h1>
+      <h1 className="text-center">My Blogs</h1>
       <main>
         <PostList posts={posts} />
       </main>
