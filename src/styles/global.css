@@ -2,10 +2,14 @@ html,
 body,
 #___gatsby,
 #gatsby-focus-wrapper {
-  height: 100%;
-  background-color: #fffaf2;
-  color: #4881ea;
-  --theme-ui-colors-primary: #b66881;
+    height: 100%;
+    background-color: #fffaf2;
+    color: #4881ea;
+    --theme-ui-colors-primary: #b66881;
+}
+
+.css-njwo93-Layout {
+    padding-top: 0 !important;
 }
 
 .css-ui2hyo-Header {
@@ -40,6 +44,7 @@ section {
     color: #fffaf2;
 }
 
+h1,
 h2 {
     margin: 5% 0% 2% 0%;
 }
@@ -70,4 +75,33 @@ a {
 
 .btn:hover {
     background-color: #325aa3;
+}
+
+.gallery {
+    display: flex;
+    padding: 2px;
+    transition: .3s;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    transition: .3s;
+    margin-bottom: 2%;
+}
+
+.gallery-image:hover {
+    filter: grayscale(0);
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 0.5%;
+}
+
+.gallery-link {
+    margin: 2px;
+    overflow: hidden;
 }
