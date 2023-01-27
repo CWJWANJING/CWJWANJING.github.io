@@ -61,3 +61,13 @@ a {
 .card-img-top {
     margin-top: 2%;
 }
+
+.btn {
+    color: #fffaf2;
+    background-color: #4881ea;
+    border-color: #4881ea;
+}
+
+.btn:hover {
+    background-color: #325aa3;
+}
