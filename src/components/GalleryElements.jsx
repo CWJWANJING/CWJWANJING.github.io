@@ -1,5 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image";
 import "../styles/global.css"
 import GalleryColumn1 from "./GalleryColumn1"
 import GalleryColumn2 from "./GalleryColumn2"

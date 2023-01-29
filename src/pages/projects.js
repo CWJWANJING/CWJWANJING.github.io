@@ -1,15 +1,15 @@
 import * as React from "react"
 import Navigation from "../components/Navigation"
-import Projects from "../components/Projects"
+import MoreProjects from "../components/MoreProjects"
 
 export default function projects() {
   return (
-    <>
+    <div>
       <Navigation />
-      <div style={{ marginLeft: "2%", marginRight: "2%", marginBottom: "2%" }}>
+      <div style={{ marginLeft: "2%", marginRight: "2%" }}>
         <h1 style={{ textAlign: "center" }}>My Projects</h1>
-        <Projects />
+        <MoreProjects />
       </div>
-    </>
+    </div>
   )
 }

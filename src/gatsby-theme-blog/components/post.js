@@ -1,7 +1,7 @@
 import * as React from "react"
 import { getSrc } from "gatsby-plugin-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import SEO from "gatsby-theme-blog/src/components/seo"
+import Seo from "gatsby-theme-blog/src/components/seo"
 import Layout from "gatsby-theme-blog/src/components/layout"
 import PostTitle from "gatsby-theme-blog/src/components/post-title"
 import PostDate from "gatsby-theme-blog/src/components/post-date"
@@ -23,7 +23,7 @@ const Post = ({
   <>
     <Navigation />
     <Layout location={location} title={title}>
-      <SEO
+      <Seo
         title={post.title}
         description={post.excerpt}
         imageSource={
