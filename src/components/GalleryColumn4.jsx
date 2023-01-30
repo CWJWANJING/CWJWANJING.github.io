@@ -4,7 +4,7 @@ import "../styles/global.css"
 
 export default function GalleryColumn4() {
     return (
-        <div class="gallery-column">
+        <div class="gallery-column ">
             <div className="gallery-link">
                 <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/queensGambit.jpeg"}
                     alt="The Queen's Gambit"

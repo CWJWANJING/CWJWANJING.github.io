@@ -88,11 +88,10 @@ a {
 
 .gallery {
     display: flex;
-    padding: 2px;
     transition: .3s;
 }
 
-.gallery:hover .gallery-image{
+.gallery:hover .gallery-image {
     filter: grayscale(1);
 }
 
@@ -110,6 +109,7 @@ a {
     position: relative;
     display: block;
 }
+
 .gallery-link:hover .gallery-image {
     filter: grayscale(0);
 }
@@ -124,9 +124,9 @@ a {
     bottom: 3.5px;
     left: 0px;
     color: white;
-    background-color: rgba(182,104,129,0.8);
+    background-color: rgba(182, 104, 129, 0.8);
     width: 100%;
-    transition: 0.5s;
+    transition: 0.3s;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
@@ -134,11 +134,40 @@ a {
 .gallery-column {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin-left: 0.5%;
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .gallery-column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .gallery-column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    --bs-gutter-x: 0;
 }
 
 .gallery-link {
-    margin: 2px;
     overflow: hidden;
 }

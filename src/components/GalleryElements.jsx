@@ -7,7 +7,7 @@ import GalleryColumn4 from "./GalleryColumn4"
 
 export default function GalleryElements() {
     return (
-            <div class="gallery">
+            <div class="gallery row">
                 <GalleryColumn1 />
                 <GalleryColumn2 />
                 <GalleryColumn3 />
