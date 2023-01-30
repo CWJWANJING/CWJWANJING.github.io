@@ -92,27 +92,41 @@ a {
     transition: .3s;
 }
 
+.gallery:hover .gallery-image{
+    filter: grayscale(1);
+}
+
 .gallery-image {
     position: relative;
     display: block;
     width: 100%;
     transition: .3s;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
-.gallery-image:hover + .figcaption, .figcaption:hover {
+.gallery-link {
+    margin: 2px;
+    overflow: hidden;
+    position: relative;
     display: block;
+}
+.gallery-link:hover .gallery-image {
+    filter: grayscale(0);
+}
+
+.gallery-link:hover .figcaption {
+    opacity: 1;
 }
 
 .figcaption {
-    display: none;
+    opacity: 0;
     position: absolute;
-    bottom: 5px;
+    bottom: 3.5px;
     left: 0px;
     color: white;
     background-color: rgba(182,104,129,0.8);
     width: 100%;
-    transition: 2s ease;
+    transition: 0.5s;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
