@@ -93,14 +93,28 @@ a {
 }
 
 .gallery-image {
+    position: relative;
     display: block;
     width: 100%;
     transition: .3s;
     margin-bottom: 2%;
 }
 
-.gallery-image:hover {
-    filter: grayscale(0);
+.gallery-image:hover + .figcaption, .figcaption:hover {
+    display: block;
+}
+
+.figcaption {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    color: white;
+    background-color: rgba(182,104,129,0.8);
+    width: 100%;
+    transition: 2s ease;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .gallery-column {
