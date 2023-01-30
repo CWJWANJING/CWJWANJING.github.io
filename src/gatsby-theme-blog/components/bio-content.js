@@ -8,9 +8,9 @@ import { Themed } from "theme-ui"
 export default function Bio() {
   return (
     <>
-      <Themed.a href="https://cwjwanjing.github.io/">Wanjing</Themed.a>
+      <Themed.a href="/">Wanjing</Themed.a>
       <br />
-      A software developer who draws.
+      A software developer who draws and writes.
     </>
   )
 }
