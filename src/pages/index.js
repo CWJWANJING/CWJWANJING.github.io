@@ -6,6 +6,7 @@ import HomeBlogs from "../components/HomeBlogs"
 import HomeArtwork from "../components/HomeArtwork"
 import "../styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
+import WebFooter from "../components/WebFooter"
 
 export default function home() {
   const style = {
@@ -19,6 +20,7 @@ export default function home() {
       <HomeBlogs />
       <HomeProjects />
       <HomeArtwork />
+      <WebFooter />
     </>
   )
 }

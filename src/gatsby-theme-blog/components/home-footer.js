@@ -1,13 +1,13 @@
 import React, { Fragment } from "react"
-import { Themed} from "theme-ui"
+import { Themed } from "theme-ui"
 
 const NewFooter = ({ socialLinks }) => (
-  <>
-  @Wanjing Chen 
-  {` `}&bull;
-  {` `}
-  {socialLinks
-    ? socialLinks.map((platform, i, arr) => (
+  <div style={{textAlign: "center", padding: "1% 0%"}}>
+    @Wanjing Chen
+    {` `}&bull;
+    {` `}
+    {socialLinks
+      ? socialLinks.map((platform, i, arr) => (
         <Fragment key={platform.url}>
           <Themed.a
             href={platform.url}
@@ -23,8 +23,8 @@ const NewFooter = ({ socialLinks }) => (
           )}
         </Fragment>
       ))
-    : null}
-    </>
+      : null}
+  </div>
 );
 
 export default NewFooter
