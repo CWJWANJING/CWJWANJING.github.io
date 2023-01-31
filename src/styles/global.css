@@ -45,12 +45,17 @@ section {
 }
 
 .nav-link {
-    color: #fffaf2;
+    color: #fffaf2 !important;
+    text-align: center;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
 }
 
 h1,
 h2 {
-    margin: 4% 0% 2% 0%;
+    line-height: 2 !important;
 }
 
 p {
@@ -170,4 +175,9 @@ a {
 
 .gallery-link {
     overflow: hidden;
+}
+
+h3 {
+    color: #fffaf2;
+    padding-left: 1%;
 }

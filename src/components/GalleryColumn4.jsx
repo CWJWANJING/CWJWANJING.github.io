@@ -6,12 +6,6 @@ export default function GalleryColumn4() {
     return (
         <div class="gallery-column ">
             <div className="gallery-link">
-                <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/queensGambit.jpeg"}
-                    alt="The Queen's Gambit"
-                    class="gallery-image" />
-                <div className="figcaption">The Queen's Gambit</div>
-            </div>
-            <div className="gallery-link">
                 <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/satyr.jpeg"}
                     alt="Head of a satyr"
                     class="gallery-image" />
