@@ -53,9 +53,8 @@ section {
     text-decoration: underline;
 }
 
-h1,
-h2 {
-    line-height: 2 !important;
+h1 {
+    line-height: 3 !important;
 }
 
 p {
@@ -83,12 +82,12 @@ a {
 
 .btn {
     color: #fffaf2;
-    background-color: #4881ea;
-    border-color: #4881ea;
+    background-color: #b66881 !important;
+    border-color: #b66881 !important;
 }
 
 .btn:hover {
-    background-color: #325aa3;
+    background-color: #a04b67 !important;
 }
 
 .gallery {
@@ -143,6 +142,8 @@ a {
     /* IE10 */
     flex: 25%;
     max-width: 25%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

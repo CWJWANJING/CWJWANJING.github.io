@@ -7,6 +7,7 @@ import HomeArtwork from "../components/HomeArtwork"
 import "../styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import WebFooter from "../components/WebFooter"
+import Favicon from 'react-favicon'
 
 export default function home() {
   const style = {
@@ -14,6 +15,7 @@ export default function home() {
   }
   return (
     <>
+      <Favicon url='src/images/favicon.ico' />
       <Navigation />
       <h1 style={style}>Wanjing Chen</h1>
       <Me />
