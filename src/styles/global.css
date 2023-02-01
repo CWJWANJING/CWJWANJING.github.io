@@ -182,3 +182,7 @@ h3 {
     color: #fffaf2;
     padding-left: 1%;
 }
+
+img, svg {
+    width: 100%;
+}
