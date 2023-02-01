@@ -201,4 +201,9 @@ img {
     font-size: 1.3rem;
     color: #fffaf2;
     vertical-align: middle;
+    margin-bottom: 0;
+}
+
+article {
+    margin: 0 0 5% 0;
 }
