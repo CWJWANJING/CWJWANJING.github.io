@@ -5,7 +5,7 @@ export default function ArtworkGallery() {
     return (
         <>
             <div style={{marginLeft: "2%", marginRight: "2%"}}>
-                <h1 style={{textAlign: "center"}}>My Artwork</h1>
+                <h1 className="pageTitle" style={{textAlign: "center"}}>My Artwork</h1>
                 <GalleryElements/>
             </div>
         </>

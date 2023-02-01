@@ -8,7 +8,7 @@ export default function projects() {
     <div>
       <Navigation />
       <div style={{ marginLeft: "2%", marginRight: "2%" }}>
-        <h1 style={{ textAlign: "center" }}>My Projects</h1>
+        <h1 className="pageTitle" style={{ textAlign: "center" }}>My Projects</h1>
         <MoreProjects />
       </div>
       <WebFooter />

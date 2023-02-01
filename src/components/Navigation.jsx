@@ -22,7 +22,7 @@ const Navigation = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg">
-      <h3>Wanjing</h3>
+      <h3 id='navbar-name'>Wanjing</h3>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav className="ms-auto navbar-nav">

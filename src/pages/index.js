@@ -17,7 +17,7 @@ export default function home() {
     <>
       <Favicon url='src/images/favicon.ico' />
       <Navigation />
-      <h1 style={style}>Wanjing Chen</h1>
+      <h1 className="pageTitle" style={style}>Wanjing Chen</h1>
       <Me />
       <HomeBlogs />
       <HomeProjects />
