@@ -6,19 +6,19 @@ export default function GalleryColumn4() {
     return (
         <div class="gallery-column ">
             <div className="gallery-link">
-                <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/satyr.jpeg"}
+                <StaticImage src={"../images/artwork/satyr.jpeg"}
                     alt="Head of a satyr"
                     class="gallery-image" />
                 <div className="figcaption">Head of a satyr</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/jigsawKitty.png"}
+                <StaticImage src={"../images/artwork/jigsawKitty.png"}
                     alt="Kitty playing jigsaw"
                     class="gallery-image" />
                 <div className="figcaption">Kitty playing jigsaw</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/src/images/rapeflowers.png"}
+                <StaticImage src={"../images/artwork/rapeflowers.png"}
                     alt="Rapeflower sea"
                     class="gallery-image" />
                 <div className="figcaption">Rapeflower sea</div>

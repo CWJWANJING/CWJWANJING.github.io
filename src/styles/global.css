@@ -213,7 +213,7 @@ article {
 }
 
 .project {
-    border: none;
+    border: none !important;
     padding: 1.5% 1%;
 }
 

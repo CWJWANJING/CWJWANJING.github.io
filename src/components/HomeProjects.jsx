@@ -13,7 +13,7 @@ const Projects = () => {
                 <div className="row">
                 <div className="col-lg-4 card">
                     <StaticImage className="card-img-top" 
-                        src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/projects/website-UI.jpg"} 
+                        src={"../images/homeProjects/projectNameGnerator.png"} 
                         alt="Card image cap" />
                     <div className="card-body d-flex">
                     <h5 className="card-title">Project Name Generator</h5>
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-4 card">
                     <StaticImage className="card-img-top" 
-                        src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/projects/Mukulele.jpg"} 
+                        src={"../images/homeProjects/Mukulele.jpg"} 
                         alt="Card image cap" />
                     <div className="card-body d-flex">
                     <h5 className="card-title">Mukulele</h5>
@@ -34,7 +34,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-4 card">
                     <StaticImage className="card-img-top" 
-                        src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/projects/aboveTheAshesPicture.jpg"} 
+                        src={"../images/homeProjects/aboveTheAshesPicture.jpg"} 
                         alt="Card image cap" />
                     <div className="card-body d-flex">
                     <h5 className="card-title">Above The Ashes</h5>

@@ -12,7 +12,7 @@ const HomeBlogs = () => {
             </div>
             <div className="row">
                 <div className="col-lg-4 card">
-                    <StaticImage className="card-img-top" src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/CNY/CNY.jpeg"} alt="Card image cap" />
+                    <StaticImage className="card-img-top" src={"../images/homeBlogs/CNY.jpeg"} alt="Card image cap" />
                     <div className="card-body d-flex">
                         <h5 className="card-title">How my family celebrates Chinese New Year</h5>
                         <p className="card-text">Chinese New Year 2023 fell on Sunday 22 January, festivities will continue for around 16 days, and end with the Lantern Festival on 5 February.
@@ -23,7 +23,7 @@ const HomeBlogs = () => {
                     </div>
                 </div>
                 <div className="col-lg-4 card">
-                    <StaticImage className="card-img-top" src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/uktochina/HEL-PVGplane.jpeg"} alt="Helsinki plane screen" />
+                    <StaticImage className="card-img-top" src={"../images/homeBlogs/HEL-PVGplane.jpeg"} alt="Helsinki plane screen" />
                     <div className="card-body d-flex">
                         <h5 className="card-title">How I travelled from the UK to China during the pandemic</h5>
                         <p className="card-text">Entering China during the pandemic is really hard. I will be sharing with you how I travelled from the UK to China during the pandemic as a Chinese citizen.</p>
@@ -31,7 +31,7 @@ const HomeBlogs = () => {
                     </div>
                 </div>
                 <div className="col-lg-4 card">
-                    <StaticImage className="card-img-top" src={"/Users/wanjing/Desktop/interests/Side_projects/my-themed-blog/content/assets/reigo/riegostreet.jpg"} alt="Riego Street Poster" />
+                    <StaticImage className="card-img-top" src={"../images/homeBlogs/riegostreet.jpg"} alt="Riego Street Poster" />
                     <div className="card-body d-flex">
                         <h5 className="card-title">An international student in Edinburgh - Part 2</h5>
                         <p className="card-text">I didn’t get my first choice of accommodation at the University of Edinburgh,
