@@ -21,8 +21,6 @@ const Navigation = () => {
     </Nav.Item>
   );
 
-  console.log(cv);
-
   return (
     <Navbar collapseOnSelect expand="lg">
       <h3 id="navbar-name">Wanjing</h3>

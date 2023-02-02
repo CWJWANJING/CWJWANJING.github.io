@@ -207,3 +207,16 @@ img {
 article {
     margin: 0 0 5% 0;
 }
+
+.row {
+    justify-content: space-around;
+}
+
+.project {
+    border: none;
+    padding: 1.5% 1%;
+}
+
+.project-text {
+    padding: 4% 2%;
+}
