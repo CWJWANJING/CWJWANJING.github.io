@@ -18,10 +18,10 @@ export default function GalleryColumn4() {
                 <div className="figcaption">Kitty playing jigsaw</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/rapeflowers.png"}
-                    alt="Rapeflower sea"
+                <StaticImage src={"../images/artwork/rapeseed.png"}
+                    alt="Rapeseed sea"
                     class="gallery-image" />
-                <div className="figcaption">Rapeflower sea</div>
+                <div className="figcaption">Rapeseed sea</div>
             </div>
         </div>
     )

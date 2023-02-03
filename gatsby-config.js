@@ -43,6 +43,6 @@ module.exports = {
     `gatsby-plugin-emotion`,
   ],
   mapping: {
-    "markdownRemark.frontmatter.image": `file.name`
+    "MarkdownRemark.frontmatter.image": `File.name`
   },
 }
