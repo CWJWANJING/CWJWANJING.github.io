@@ -75,6 +75,7 @@ a {
 
 .card {
     margin-bottom: 2%;
+    background-color: #fff2de !important;
 }
 
 .card-body {
@@ -215,6 +216,7 @@ article {
 .project {
     border: none !important;
     padding: 1.5% 1%;
+    background-color: #fff2de !important;
 }
 
 .project-text {

@@ -22,9 +22,27 @@ module.exports = {
         basePath: `/blog`
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `content/projects`,
+        name: `content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `src/images`,
+        name: `src/images`,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
   ],
+  mapping: {
+    "markdownRemark.frontmatter.image": `file.name`
+  },
 }
