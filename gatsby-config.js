@@ -6,12 +6,16 @@ module.exports = {
     siteUrl: `https://cwjwanjing.github.io/`,
     social: [
       {
-        name: `instagram`,
-        url: `https://www.instagram.com/wanjingchen_/`,
+        name: `LinkedIn`,
+        url: `https://www.linkedin.com/in/wanjingchen/`,
       },
       {
-        name: `github`,
+        name: `Github`,
         url: `https://github.com/CWJWANJING`,
+      },
+      {
+        name: `Instagram`,
+        url: `https://www.instagram.com/wanjingchen_/`,
       },
     ],
   },
@@ -41,6 +45,18 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+        "UA-168444581-1", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true
+        },
+      },
+    }
   ],
   mapping: {
     "MarkdownRemark.frontmatter.image": `File.name`

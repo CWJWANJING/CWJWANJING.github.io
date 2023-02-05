@@ -4,7 +4,7 @@ import { css } from "@emotion/react"
 import Styled from "@emotion/styled"
 
 const P = Styled.p`
-  margin: 2% 0% 0% 0%;
+  margin: 4% 2%;
   font-size: 1.4rem;
   text-align: center;
   }
