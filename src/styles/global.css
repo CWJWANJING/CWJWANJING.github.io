@@ -203,6 +203,12 @@ img {
     color: #fffaf2;
     vertical-align: middle;
     margin-bottom: 0;
+    padding-left: 1%;
+    text-decoration: none;
+}
+
+#navbar-name:hover {
+    text-decoration: underline;
 }
 
 article {
