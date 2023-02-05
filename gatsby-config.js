@@ -49,13 +49,26 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-        "UA-168444581-1", // Google Analytics / GA
+          "UA-168444581-1", // Google Analytics / GA
         ],
         pluginConfig: {
           // Puts tracking script in the head instead of the body
           head: true
         },
       },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Wanjing Chen`,
+        short_name: `CWJ`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        // Generate PWA icons and a favicon
+        icon: `src/images/super-icon.jpg`,
+      }
     }
   ],
   mapping: {
