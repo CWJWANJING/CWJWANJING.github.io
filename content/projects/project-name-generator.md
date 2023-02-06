@@ -3,7 +3,7 @@ name: Project Name Generator
 image: projectNameGnerator
 link-text: GitHub Link
 link-href: https://github.com/CWJWANJING/project-name-generator
-date: 2022-11
+date: "2022-11-01"
 ---
 
 This project is about creating a single webpage using React and OpenAI that generates a bunch of project names based on given keywords input. The demonstration of the app can be found [here](https://youtu.be/1aQnDuiXf_4).

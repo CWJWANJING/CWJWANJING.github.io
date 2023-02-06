@@ -67,7 +67,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // Generate PWA icons and a favicon
-        icon: `src/images/super-icon.jpg`,
+        icon: `src/images/super-icon.png`,
       }
     }
   ],
