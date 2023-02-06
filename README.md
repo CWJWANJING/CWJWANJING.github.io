@@ -13,4 +13,5 @@
 Then go to `http://localhost:8000`
 
 ## To deploy to gh-pages
-Follow this instruction: [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/)
+Run ```npm run deploy```
+For details, follow this instruction: [How Gatsby Works with GitHub Pages](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/)
