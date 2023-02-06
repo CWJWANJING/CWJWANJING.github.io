@@ -66,7 +66,6 @@ module.exports = {
         background_color: `#FFF`,
         theme_color: `#FBEDE0`,
         display: `standalone`,
-        icon: `src/images/favicon.png`,
         icons: [
           {
             src: `src/images/android-chrome-192x192.png`,
@@ -86,6 +85,11 @@ module.exports = {
           {
             src: `src/images/apple-touch-icon.png`,
             sizes: `180x180`,
+            type: `image/png`,
+          },
+          {
+            src: `src/images/favicon.png`,
+            sizes: `32x32`,
             type: `image/png`,
           },
         ],
