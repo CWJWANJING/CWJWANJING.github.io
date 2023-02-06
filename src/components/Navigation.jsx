@@ -4,6 +4,7 @@ import "../styles/global.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Nav, Navbar } from 'react-bootstrap';
 import cv from '../../static/cv.pdf'
+import { StaticImage } from 'gatsby-plugin-image';
 
 const navItems = [
   { text: "Home", link: "/" },
@@ -23,6 +24,13 @@ const Navigation = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg">
+      <StaticImage
+                src={"../images/logo.png"}
+                className="logo"
+                alt="my logo"
+                placeholder="blurred"
+                layout="constrained"
+            />
       <Link h3 id="navbar-name" to="/">Wanjing</Link>
       <Navbar.Toggle className='navbar-dark' />
       <Navbar.Collapse>

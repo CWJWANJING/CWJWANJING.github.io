@@ -67,7 +67,7 @@ module.exports = {
         theme_color: `#FBEDE0`,
         display: `standalone`,
         cache_busting_mode: `query`,
-        icon: `src/images/apple-touch-icon.png`,
+        icon: `src/images/android-chrome-512x512.png`,
         icons: [
           {
             src: `src/images/android-chrome-192x192.png`,
@@ -75,8 +75,8 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `src/images/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `src/images/apple-touch-icon.png`,
+            sizes: `180x180`,
             type: `image/png`,
           },
           {
