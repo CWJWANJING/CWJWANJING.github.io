@@ -63,11 +63,22 @@ module.exports = {
         name: `Wanjing Chen`,
         short_name: `CWJ`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        // Generate PWA icons and a favicon
-        icon: `src/images/super-icon.png`,
+        background_color: `#FFF`,
+        theme_color: `#FBEDE0`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+        icons: [
+          {
+            src: `src/images/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `src/images/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       }
     }
   ],
