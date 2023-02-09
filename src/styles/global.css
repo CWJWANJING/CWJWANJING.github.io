@@ -207,6 +207,7 @@ img {
     padding-left: 0.5%;
     text-decoration: none;
     margin-left: 0%;
+    display : inline-block;
 }
 
 #navbar-name:hover {
