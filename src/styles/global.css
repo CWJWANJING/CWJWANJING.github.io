@@ -201,7 +201,8 @@ img {
 #navbar-name {
     font-size: 1.3rem;
     color: #fffaf2;
-    vertical-align: middle;
+    vertical-align: middle !important;
+    text-align: center;
     margin-bottom: 0;
     padding-left: 0.5%;
     text-decoration: none;
