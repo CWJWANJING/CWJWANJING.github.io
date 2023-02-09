@@ -24,14 +24,19 @@ const Navigation = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg">
-      <StaticImage
-                src={"../images/logo.png"}
-                className="logo"
-                alt="my logo"
-                placeholder="blurred"
-                layout="constrained"
-            />
-      <Link h3 id="navbar-name" to="/">Wanjing</Link>
+      <p className='noPaddings'>
+      <Link className="logoNnameLink" to="/">
+        <StaticImage
+          src={"../images/logo.png"}
+          className="logo"
+          alt="my logo"
+          placeholder="blurred"
+          layout="constrained"
+        />
+      </Link>
+      <Link className="logoNnameLink" id="navbar-name" to="/">Wanjing</Link>
+      </p>
+
       <Navbar.Toggle className='navbar-dark' />
       <Navbar.Collapse>
         <Nav className="ms-auto navbar-nav">
