@@ -24,18 +24,18 @@ const Navigation = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg">
-      <p className='noPaddings'>
-      <Link className="logoNnameLink" to="/">
-        <StaticImage
-          src={"../images/logo.png"}
-          className="logo"
-          alt="my logo"
-          placeholder="blurred"
-          layout="constrained"
-        />
-      </Link>
-      <Link className="logoNnameLink" id="navbar-name" to="/">Wanjing</Link>
-      </p>
+      <div className='noPaddingsLeft'>
+        <Link to="/">
+          <StaticImage
+            src={"../images/logo.png"}
+            className="logo"
+            alt="my logo"
+            placeholder="blurred"
+            layout="constrained"
+          />
+        </Link>
+        <Link id="navbar-name" to="/">Wanjing</Link>
+      </div>
 
       <Navbar.Toggle className='navbar-dark' />
       <Navbar.Collapse>
