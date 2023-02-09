@@ -1,6 +1,5 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { css } from "@emotion/react"
 import Styled from "@emotion/styled"
 
 const P = Styled.p`
@@ -17,13 +16,7 @@ function Me() {
                 src={"../images/avatar.png"}
                 alt="my photo"
                 placeholder="blurred"
-
-                css={css`
-                border-radius: 50%;
-                margin-left: 42.25%;
-                margin-right: 42.25%;
-                width: 15%;
-            `}
+                className="avatarImage"
                 layout="constrained"
             />
             <P>Hi! My name is Wanjing. I'm a software developer who draws and writes. Nice to meet you! 😊</P>
