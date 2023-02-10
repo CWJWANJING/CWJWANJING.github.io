@@ -33,7 +33,7 @@ const Navigation = () => {
             placeholder="blurred"
             layout="constrained"
           />
-          <div id="navbar-name">Wanjing</div>
+          <p id="navbar-name">Wanjing</p>
         </Link>
       </div>
 
