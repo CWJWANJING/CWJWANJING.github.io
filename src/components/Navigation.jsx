@@ -33,8 +33,8 @@ const Navigation = () => {
             placeholder="blurred"
             layout="constrained"
           />
-          <p id="navbar-name">Wanjing</p>
         </Link>
+        <Link to="/" id="navbar-name">Wanjing</Link>
       </div>
 
       <Navbar.Toggle className='navbar-dark' />
