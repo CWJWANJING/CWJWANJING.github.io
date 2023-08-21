@@ -4,23 +4,23 @@ import "../styles/global.css"
 
 export default function GalleryColumn4() {
     return (
-        <div class="gallery-column ">
+        <div className="gallery-column ">
             <div className="gallery-link">
                 <StaticImage src={"../images/artwork/satyr.jpeg"}
                     alt="Head of a satyr"
-                    class="gallery-image" />
+                    className="gallery-image" />
                 <div className="figcaption">Head of a satyr</div>
             </div>
             <div className="gallery-link">
                 <StaticImage src={"../images/artwork/jigsawKitty.png"}
                     alt="Kitty playing jigsaw"
-                    class="gallery-image" />
+                    className="gallery-image" />
                 <div className="figcaption">Kitty playing jigsaw</div>
             </div>
             <div className="gallery-link">
                 <StaticImage src={"../images/artwork/rapeseed.png"}
                     alt="Rapeseed sea"
-                    class="gallery-image" />
+                    className="gallery-image" />
                 <div className="figcaption">Rapeseed sea</div>
             </div>
         </div>
