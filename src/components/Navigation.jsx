@@ -10,12 +10,13 @@ const navItems = [
   { text: "Home", link: "/" },
   { text: "Projects", link: "/projects" },
   { text: "Art", link: "/art" },
+  { text: "Web Comics", link: "/webcomics" },
   { text: "Blogs", link: "/blog" },
 ]
 
 const Navigation = () => {
   const renderedNavItems = navItems.map((navItem) =>
-    <Nav.Item className='nav-link'>
+    <Nav.Item className='nav-link' key={navItem.text}>
       <Nav.Link eventKey={navItem.text} as={Link} to={navItem.link}>
         {navItem.text}
       </Nav.Link>
