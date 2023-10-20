@@ -35,3 +35,44 @@
 .slideshowDot.active {
   background-color: #6a0dad;
 }
+
+.left {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  font-size: 3rem;
+  color: #4881ea;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+}
+
+.left:hover {
+  background-color: #4881ea;
+  color: #fffaf2;
+  border-radius: 25px;
+  width: 3.5rem;
+  height: 5rem;
+}
+
+.right {
+  position: absolute;
+  text-align: right;
+  right: 5%;
+  top: 50%;
+  font-size: 3rem;
+  color: #4881ea;
+  background-color: #fffaf2;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right:hover {
+  background-color: #4881ea;
+  color: #fffaf2;
+  border-radius: 25px;
+  width: 3.5rem;
+  height: 5rem;
+}
