@@ -6,7 +6,7 @@ export default function GalleryColumn1() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/windy.JPG"}
+                <StaticImage src={"../images/artwork/webcomics/windy.JPG"}
                     alt="A story about I named myself Windy in high school, and my british boyfriend made fun of me"
                     className="gallery-image" />
                 <div className="figcaption">My name is Windy</div>

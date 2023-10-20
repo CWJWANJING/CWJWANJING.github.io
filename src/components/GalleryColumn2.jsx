@@ -6,6 +6,12 @@ export default function GalleryColumn2() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
+                <StaticImage src={"../images/artwork/webcomics/heavyMetal.jpg"}
+                    alt="When your boyfriend loves heavy metal music, you just get used to it"
+                    className="gallery-image" />
+                <div className="figcaption">When your boyfriend loves heavy metal music</div>
+            </div>
+            <div className="gallery-link">
                 <StaticImage src={"../images/artwork/jealouskitty.jpeg"}
                     alt="Jealous Kitty"
                     className="gallery-image" />
