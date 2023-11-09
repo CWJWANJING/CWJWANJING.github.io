@@ -38,12 +38,6 @@ export default function Webcomics() {
     <>
       <Navigation />
       <div className="slideshow">
-        {/* <div className="left">
-          <FontAwesomeIcon icon="fa-solid fa-arrow-left" onClick={prevSlide}/>
-        </div>
-        <div className="right">
-          <FontAwesomeIcon icon="fa-solid fa-arrow-right" onClick={nextSlide}/>
-        </div> */}
         <div className="left" onClick={prevSlide}>&#10094;</div>
         {sliderImages.map((currentSlide, ind) => {
           return (
