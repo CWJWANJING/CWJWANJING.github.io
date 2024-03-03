@@ -24,7 +24,7 @@ export default function GalleryColumn1() {
                 <div className="figcaption">Island</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/heartstopper.PNG"}
+                <StaticImage src={"../images/artwork/heartstopper.png"}
                     alt="Heartstopper"
                     className="gallery-image" />
                 <div className="figcaption">Heartstopper</div>
