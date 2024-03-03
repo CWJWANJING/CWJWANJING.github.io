@@ -6,7 +6,6 @@ import "../styles/slideshow.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Webcomics() {
-  // const sliderImages = ["../images/artwork/webcomics/windy.JPG", "../images/artwork/webcomics/heavyMetal.JPG"];
   const [activeImageNum, setCurrent] = React.useState(0);
   const query = useStaticQuery(graphql`
       query MyQuery {

@@ -6,28 +6,52 @@ export default function GalleryColumn1() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/waterstonecafe1.jpeg"}
-                    alt="waterstone cafe painting"
+                <StaticImage src={"../images/artwork/us.PNG"}
+                    alt="Portrait of us"
                     className="gallery-image" />
-                <div className="figcaption">Waterstone cafe</div>
+                <div className="figcaption">Us</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/jellycatBear.jpeg"}
-                    alt="Jellycat Bear"
-                    class="gallery-image" />
-                <div className="figcaption">Jellycat Bear</div>
+                <StaticImage src={"../images/artwork/seaside.png"}
+                    alt="Seaside"
+                    className="gallery-image" />
+                <div className="figcaption">Seaside</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/jellycatPuppy.jpeg"}
-                    alt="Jellycat Cream Puppy"
-                    class="gallery-image" />
-                <div className="figcaption">Jellycat Cream Puppy</div>
+                <StaticImage src={"../images/artwork/island.png"}
+                    alt="Island"
+                    className="gallery-image" />
+                <div className="figcaption">Island</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/buddapestHotel.jpeg"}
-                    alt="The Grand Budapest Hotel Scene 1"
-                    class="gallery-image" />
-                <div className="figcaption">The Grand Budapest Hotel Scene 1</div>
+                <StaticImage src={"../images/artwork/heartstopper.PNG"}
+                    alt="Heartstopper"
+                    className="gallery-image" />
+                <div className="figcaption">Heartstopper</div>
+            </div>
+            <div className="gallery-link">
+                <StaticImage src={"../images/artwork/love.PNG"}
+                    alt="Love"
+                    className="gallery-image" />
+                <div className="figcaption">Love</div>
+            </div>
+            <div className="gallery-link">
+                <StaticImage src={"../images/artwork/genevaSeat.png"}
+                    alt="Geneva Broken Seat"
+                    className="gallery-image" />
+                <div className="figcaption">Geneva Broken Seat</div>
+            </div>
+            <div className="gallery-link">
+                <StaticImage src={"../images/artwork/cozyVibe.png"}
+                    alt="Being Cozy Together"
+                    className="gallery-image" />
+                <div className="figcaption">Being Cozy Together</div>
+            </div>
+            <div className="gallery-link">
+                <StaticImage src={"../images/artwork/me?.PNG"}
+                    alt="Kitty going: Me?"
+                    className="gallery-image" />
+                <div className="figcaption">Me?</div>
             </div>
         </div>
     )
