@@ -3,12 +3,12 @@ import * as React from "react";
 import { graphql, useStaticQuery } from 'gatsby';
 
 const MoreProjects = () => {
-    const data = useStaticQuery(
-        graphql`
+  const data = useStaticQuery(
+    graphql`
         query ProjectsQuery {
             allMarkdownRemark(
                 filter: {fileAbsolutePath: {regex: "/.*content/projects.*/"}, frontmatter: {name: {}}}
-                sort: {fields: frontmatter___date, order: DESC}
+                sort: { frontmatter: { date: DESC } }
               ) {
                 nodes {
                   html
@@ -17,33 +17,29 @@ const MoreProjects = () => {
                     link_text
                     name
                     date
-                    image {
-                      childImageSharp {
-                        gatsbyImageData
-                      }
-                    }
+                    image 
                   }
                 }
               }
             }
         `
-    );
+  );
 
-    const renderedProjects = data.allMarkdownRemark.nodes.map((project) =>
-        <div className="col-lg-5 card project">
-            <h2>{project.frontmatter.name}</h2>
-            <GatsbyImage className="card-img-top" image={project.frontmatter.image.childImageSharp.gatsbyImageData} alt={project.frontmatter.name} />
-            <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
-            <a className="btn btn-primary mt-auto" href={project.frontmatter.link_href}>{project.frontmatter.link_text}</a>
-        </div>
-    )
-    return (
-        <div style={{ marginLeft: "2%", marginRight: "2%" }}>
-            <div className="row">
-                {renderedProjects}
-            </div>
-        </div>
-    )
+  const renderedProjects = data.allMarkdownRemark.nodes.map((project) =>
+    <div className="col-lg-5 card project">
+      <h2>{project.frontmatter.name}</h2>
+      <GatsbyImage className="card-img-top" image={project.frontmatter.image.childImageSharp.gatsbyImageData} alt={project.frontmatter.name} />
+      <div dangerouslySetInnerHTML={{ __html: project.html }}></div>
+      <a className="btn btn-primary mt-auto" href={project.frontmatter.link_href}>{project.frontmatter.link_text}</a>
+    </div>
+  )
+  return (
+    <div style={{ marginLeft: "2%", marginRight: "2%" }}>
+      <div className="row">
+        {renderedProjects}
+      </div>
+    </div>
+  )
 }
 
 export default MoreProjects;

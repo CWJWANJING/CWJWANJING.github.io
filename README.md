@@ -8,7 +8,7 @@
 </h1>
 
 ## To run the website locally
-```cd``` to the directory and run ```gatsby develop```
+```cd``` to the directory and run ```gatsby develop``` or run ```npx gatsby develop```
 
 Then go to `http://localhost:8000`
 

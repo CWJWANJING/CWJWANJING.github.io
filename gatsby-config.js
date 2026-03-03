@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "",
+    title: "Wanjing Chen",
     author: `Wanjing Chen`,
     description: `My site description...`,
     siteUrl: `https://cwjwanjing.github.io/`,
@@ -21,42 +21,43 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-theme-blog`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        basePath: `/blog`
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `content/projects`,
-        name: `content/projects`,
+        path: `${__dirname}/content/projects`,
+        name: `projects`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `src/images`,
-        name: `src/images`,
+        path: `${__dirname}/src/images`,
+        name: `images`,
       },
     },
+
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
+
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "UA-168444581-1", // Google Analytics / GA
-        ],
+        trackingIds: ["UA-168444581-1"],
         pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true
+          head: true,
         },
       },
     },
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -66,34 +67,8 @@ module.exports = {
         background_color: `#FFF`,
         theme_color: `#FBEDE0`,
         display: `standalone`,
-        cache_busting_mode: `query`,
         icon: `src/images/android-chrome-512x512.png`,
-        icons: [
-          {
-            src: `src/images/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `src/images/apple-touch-icon.png`,
-            sizes: `180x180`,
-            type: `image/png`,
-          },
-          {
-            src: `src/images/favicon-16x16.png`,
-            sizes: `16x16`,
-            type: `image/png`,
-          },
-          {
-            src: `src/images/favicon.png`,
-            sizes: `32x32`,
-            type: `image/png`,
-          },
-        ],
-      }
-    }
+      },
+    },
   ],
-  mapping: {
-    "MarkdownRemark.frontmatter.image": `File.name`
-  },
-}
+};
