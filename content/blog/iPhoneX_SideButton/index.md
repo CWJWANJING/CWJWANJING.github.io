@@ -13,9 +13,9 @@ For Android smartphones and previous iPhones before the iPhone X, long-pressing 
 
 I wanted to find out the possible reasons for Apple to change the side button's functionality and ways to make the button more usable. I, therefore, focused on testing users' attitudes toward the change and their potential suggestions.
 
-![Screenshots of iPhone](../assets/iPhoneX_SideButton/phonescreens.jpg)
+![Screenshots of iPhone](phonescreens.jpg)
 
-![Google Trend](../assets/iPhoneX_SideButton/google_trend.jpg)
+![Google Trend](google_trend.jpg)
 *Google Trend*
 
 ## Background
@@ -29,7 +29,7 @@ Looking at 7 Questions Driving User-Centred Systems *(Ritter/Baxter/Churchill, 2
 
 * ***Functionality***: the purpose of the change is to compensate for removing the home button. The side button is now used for the features of Siri and Apple Pay. *(Woollaston, 2018)*
 * ***Usability***: Based on personal experience, when I first found out the side button of iPhone X does not have the power-off function, it was 15 minutes before the exam to start, I was already stressed, this made it worse. Therefore, as a veteran iPhone user, according to the definition of usability *(ISO standard 9241)*, I would say it is not very usable.
-* ***Learnability***: it is easy to learn the new way to shut down iPhone X, as users just need to look up the Apple support documentation and practice using it. However, it is inconsistent with the way other iPhones work. *(Kendra S./Theo J.D., 2017)*
+* ***Learnability***: it is easy to learn the new way to shut down iPhone X, as users just need to look up the Apple support documentation and practice using it. However, it is inconsistent with the way other iPhones work. *(Kendra STheo J.D., 2017)*
 * ***Efficiency***: the efficiency of the new way to power off the phone decreases since users need to long-press both a volume button and the side button until the power off slider appears, not as before, we just need to long-press the side button.
 * ***Reliability***: once users get used to the new power-off method, the function of the side button will remain consistent through the lifetime of the phone, so it is reliable.
 
@@ -47,7 +47,7 @@ When all information was delivered, they were asked to turn off their phones dur
 
 After the call, an electronic survey powered by *Typeform* was immediately delivered to each participant regarding whether they completed the task or not, and their satisfaction and experience with the design change. Questions like 'how useful the change of design is', ranging from 'Very useful' to 'Not useful at all', and 'how did you find the new way of powering off' were featured in the questionnaire. The possible reasons for the design change and suggestions for possible enhancements in the design were also asked in the survey. The questionnaire looked like the figure below. All the data were kept digitally and encrypted, no Google products were used. Qualitative data was based on participants' answers in the survey, and quantitative data was based on the steps and categories recorded.
 
-![The Questionnaire](../assets/iPhoneX_SideButton/questionnaire.jpg)
+![The Questionnaire](questionnaire.jpg)
 *The Questionnaire*
 
 ## Analysis
@@ -59,14 +59,14 @@ There were three participants recruited through my friends. They were all aged 2
 
 I recorded the number of steps participants took to complete the task and how many of them completed the task. I also recorded how useful they think the change of design is and how easy they find powering off the phone using the new design. In the end, I asked what they think of the possible reasons for Apple to change this design and what their suggestions are for improving the usability.
 
-![Figure 1](../assets/iPhoneX_SideButton/figure1.jpg)
+![Figure 1](figure1.jpg)
 *Figure 1*
 
 As shown in Figure 1, all of them completed the task of powering off the iPhone X successfully. Two participants, i.e. 66.7% participants, as shown in Figure 2, found that the change of design is not useful at all for powering off, and one remains neutral. Each of them holds different views towards the new way of powering off, one thinks it's easy to use, one thinks it's hard to use, and one thinks it's very hard to use. The below table shows participants' opinions towards the potential reason for changing the design and their suggestions for improvement:
 
-![Participants' suggestions](../assets/iPhoneX_SideButton/participants-suggests.jpg)
+![Participants' suggestions](participants-suggests.jpg)
 
-![Participants' suggestions](../assets/iPhoneX_SideButton/figure2.jpg)
+![Participants' suggestions](figure2.jpg)
 
 Most of the participants assumed it's because of the removal of the home button, and one seemed unsure. Still, she cannot understand why Siri is important enough to replace the side button's functionality for powering off. Most participants mentioned adding another button, but one of them stated that it would then lose the meaning of reducing the home button. They also mentioned different types of pressing the side buttons to trigger either powering off or SIRI, such as "triple click" or "long press". An interesting suggestion would be using time regulation to differ the SIRI and power off functionality.
 
@@ -103,4 +103,4 @@ Victoria Woollaston (2018) iPhone X review: Apple's expensive iPhone X is still 
 
 ISO standard 9241
 
-Kendra S./Theo J.D. (2017), Libri: The International Journal of Libraries and Information Studies, P106
+Kendra STheo J.D. (2017), Libri: The International Journal of Libraries and Information Studies, P106

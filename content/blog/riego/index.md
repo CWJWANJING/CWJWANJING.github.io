@@ -17,15 +17,15 @@ In high school, I lived in a room of four, and we shared a bathroom. That's usua
 ## Riego Street
 The Riego Street complex forms a U shape; my building was in the middle. When I arrived at the accommodation I saw a big yellow sign which had the University of Edinburgh's logo on it, and 'Riego Street' in big letters. My accommodation is here!
 
-![riego street poster](../assets/reigo/riegostreet.jpg)
+![riego street poster](riegostreet.jpg)
 
 When I stood at the entrance, I saw many volunteers (most of them were students from higher years), and a red door leading to the reception. A volunteer took me through and gave me an information pack. All the information I needed to know about the accommodation was in there. Then I followed the volunteer to my flat door. After handing me the key, he left.
 
-![riego building structure](../assets/reigo/riegobuilding.jpg)
+![riego building structure](riegobuilding.jpg)
 
 There was an A4 paper on the door. It was printed with the Scotland flag and the name of each person who lives in this apartment. My roommates were all nice, they invited me to hang out with them a lot. One of them was from Poland, one of them was Scottish, and one of them was from Malaysia.
 
-![the flag on flat door](../assets/reigo/flatdoorflag.jpg)
+![the flag on flat door](flatdoorflag.jpg)
 
 I saw a 10-meter-ish hallway when I opened the flat door. The first room on the left side was the kitchen. It was reasonably spacious. There were four hobs, one sink, one fridge, one dining table, several dining chairs, two big sofas and a tea table—also a toaster, a microwave oven, an oven and some cookware left by previous people.
 
@@ -35,15 +35,15 @@ The only problems were that there were only four hobs and one refrigerator. My r
 
 (The picture below is the view from the kitchen window. I took it because I thought my roommates' decoration was cute.)
 
-![outside of the kitchen window](../assets/reigo/kitchenwindowoutside.jpg)
+![outside of the kitchen window](kitchenwindowoutside.jpg)
 
 The next room on the left-hand side was the biggest bathroom in the flat. It had a toilet, a sink and a shower. There was another bathroom in the flat which had the same facilities but was smaller. One of the best bits about our flat was that although we had five people, we had two bathrooms which both had a shower. Unlike other four-person flats, which normally have one bathroom with a shower and maybe one extra bathroom without a shower.
 
-![riego flat layout](../assets/reigo/riegoflatlayout.jpg)
+![riego flat layout](riegoflatlayout.jpg)
 
 The two rooms after the bathroom were bedrooms. The end of the hallway was the smaller bathroom mentioned earlier and a storage room. On the right-hand side of the hallway, there were the remaining three rooms. The rooms were labelled 'A B C D E' respectively. I lived in A.
 
-![riego bedroom layout](../assets/reigo/riegobedroomlayout.jpg)
+![riego bedroom layout](riegobedroomlayout.jpg)
 
 I would say my room was spacious. You could see a big cork notice board on the wall, and below that, there was a heater. On the right-hand side of the room, there was an OK-sized desk with a shelf above it. Next to the desk was a sink. I didn't expect a sink in my room, but it was very convenient. Even when I have morning classes, I didn't need to compete with my roommates for the toilets. The only nuisance was that it was placed opposite the bed. Sometimes when I woke up to pee during the night, my reflection in the mirror shocked me.
 
@@ -53,7 +53,7 @@ One of the things that surprised me about accommodation in the UK, was their sou
 
 If you speak in the hallway, you need to be prepared for your conversations to be heard by other people. The door seemed to be mostly decorative. However, the sound insulation between each room was alright.
 
-![riego surrounding's map](../assets/reigo/riegosurroundingsmap.png)
+![riego surrounding's map](riegosurroundingsmap.png)
 
 The location of Riego Street was perfect. The nearest supermarket was 2 minutes walk away. And there was a good range of supermarkets; Tesco Express, Co-op Food, Sainsbury's Local. I went to Sainsbury's Local and Co-op Food most often, because Sainsbury's Local is on my way to school; Co-op Food was the nearest supermarket.
 

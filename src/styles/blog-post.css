@@ -38,6 +38,7 @@
     margin-bottom: 0.75rem;
     line-height: 1.25;
     color: #111;
+    padding: 0;
 }
 
 .blog-post-content h2 {
@@ -91,11 +92,21 @@
     font-size: 0.95em;
 }
 
-.blog-post-content img {
-    max-width: 100%;
-    height: auto;
+.blog-post-content img,
+.blog-post-content picture,
+.blog-post-content .gatsby-resp-image-wrapper {
     display: block;
-    margin: 1rem auto;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    max-width: 800px !important;
+}
+
+.blog-post-content figcaption {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
 }
 
 @media (max-width: 600px) {
@@ -106,4 +117,11 @@
     .blog-post-title {
         font-size: 1.5rem;
     }
+}
+
+/* Color emphasized text (markdown `*text*`, `**bold**`, `***bold italic***`) */
+.blog-post-content em,
+.blog-post-content em strong,
+.blog-post-content strong em {
+    color: #4881ea;
 }

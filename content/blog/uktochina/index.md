@@ -14,7 +14,7 @@ Until December 2021, China only allowed limited airlines to enter and a limited 
 - Helsinki Vantaa (HEL) to Shanghai Pudong International (PVG): **8 h 55 min**
 
 
-![example flight information](../assets/uktochina/flightexample.png)
+![example flight information](flightexample.png)
 
 It's pretty complicated and unpleasant to travel to China right now.
 
@@ -41,7 +41,7 @@ There were lots of tests I needed to take and things to do:
 
 For example, if the flight is on a Wednesday, the test must be done on the previous Wednesday. I did the test twice to make sure there would definitely be a result because I heard some might come out unclear.
 
-![NHS Home Testing Kit, credit: SkyNews - Coronavirus: The inside story of how UK's 'chaotic' testing regime 'broke all the rules'](../assets/uktochina/nhsHomeTesting.jpeg)
+![NHS Home Testing Kit, credit: SkyNews - Coronavirus: The inside story of how UK's 'chaotic' testing regime 'broke all the rules'](nhsHomeTesting.jpeg)
 
 - Start recording my own temperature for the next 7 days until the flight date
 - PCR + IgM antibody test two days before the flight
@@ -65,15 +65,15 @@ Getting onto the first plane was not that different from pre-COVID time. After a
 
 I showed the staff at the transfer service desk my green QR code, my passport. Then they pointed me to the PCR + IgM antibody test area. They did the nose + the blood test. The nurse who did the nose went really deep inside. It feels like it reaches my throat from my nose...
 
-![Helsinki Airport](../assets/uktochina/HELairport.jpeg)
+![Helsinki Airport](HELairport.jpeg)
 
-![The queue for the transfer service](../assets/uktochina/queueTransferService.jpeg)
+![The queue for the transfer service](queueTransferService.jpeg)
 
 Due to COVID restrictions, the airport hotel was closed. So any overnight transfer passengers need to stay overnight at the airport.
 
 I made a mistake by taking the overnight bag with me to the testing point. It was inconvenient to hold with your arms. I should have picked up the bag after I did the test because the bags were right next to the transfer service desk.
 
-![The overnight bag collection point](../assets/uktochina/overnightbagcollection.jpeg)
+![The overnight bag collection point](overnightbagcollection.jpeg)
 
 ###Stay Overnight at the Airport
 The overnight bag includes:
@@ -89,9 +89,9 @@ The overnight bag includes:
 
 The quilt was a bit thin. It was quite cold at the airport. There were some ambient sounds next to the spot I planned to sleep in. It was loud, and the light was bright. With the help of earplugs and the eye mask, I managed to sleep for 5 hours.
 
-![The travel kit inside the overnight bag](../assets/uktochina/travelkit.jpeg)
+![The travel kit inside the overnight bag](travelkit.jpeg)
 
-![The slippers that came with the overnight bag](../assets/uktochina/slippers.jpeg)
+![The slippers that came with the overnight bag](slippers.jpeg)
 
 ### The Flight from Helsinki to Shanghai
 The next day was pretty easy. I waited for the result to come out and then used the new and old information to apply for the new green QR code. The previous one expired after arriving at the Helsinki airport.
@@ -108,7 +108,7 @@ The procedure was quite simple too. I did the COVID (nose and tonsils test) and 
 
 My final destination was Hangzhou, which is in Zhejiang province and close to Shanghai. Different provinces have different quarantine policies. (Shanghai is a municipality directly under the Central Government.)
 
-![Just landed in Shanghai and stepped outside of the plane](../assets/uktochina/arrivePVG.jpeg)
+![Just landed in Shanghai and stepped outside of the plane](arrivePVG.jpeg)
 
 All quarantine needs to be done in hotels with people monitoring. There are two ways of quarantine for my destination:
 
@@ -119,7 +119,7 @@ I chose the latter one, mainly because I don't need to quarantine for too long c
 
 After I made my choice, I filled in an online form and waited for the staff to take a group of people, including me, to the hotel by a private sanitised bus.
 
-![Claiming my luggage at Shanghai Pudong Airport](../assets/uktochina/collectluggage.jpeg)
+![Claiming my luggage at Shanghai Pudong Airport](collectluggage.jpeg)
 
 ### The Quarantine Hotels
 The hotels are all randomly assigned to people and you need to pay by yourself. The one in Shanghai that was assigned to me wasn't that great. The hotel is quite old, and I needed to wipe the furniture inside myself. They were dusty. I wasn't sure why it was like that.
@@ -128,7 +128,7 @@ They did allow essential goods delivery and food that does not need extra care t
 
 There was a small desk outside the door for placing food and parcel deliveries, I could open the door to collect food which the staff delivers. I can open the windows too.
 
-![A glance of the hotel I got assigned in Shanghai](../assets/uktochina/ShanghaiHotel.jpeg)
+![A glance of the hotel I got assigned in Shanghai](ShanghaiHotel.jpeg)
 
 The fourth morning, I got transferred to a Jiaxing hotel by a private bus. I got lucky this time.
 
@@ -136,21 +136,21 @@ Although it did not allow food delivery and only allowed essential goods deliver
 
 Most importantly, the room was much better than the previous hotel room. The decoration was more modern and felt cosier. Plus, the price was much cheaper than the Shanghai one, almost half cheaper.
 
-![A photo of the hotel I got assigned in Jiaxing](../assets/uktochina/hotelroom.jpeg)
+![A photo of the hotel I got assigned in Jiaxing](hotelroom.jpeg)
 
-![Another photo of the hotel I got assigned in Jiaxing](../assets/uktochina/hotelroom2.jpeg)
+![Another photo of the hotel I got assigned in Jiaxing](hotelroom2.jpeg)
 
 Later about 9 days in my quarantine, I started to struggle a bit. Good thing that I was working remotely so a big part of the day can be occupied. For the rest of the time I was writing this blog, watching shows, and practicing the Chinese flute Xiao.
 
 There were a lot of food in each meal. I didn't really exercise much in the room, so ended up gaining some weight at the end of quarantine. Here are a few photos of the food they provided:
 
-![Quarantine meal](../assets/uktochina/hotelmeal.jpeg)
+![Quarantine meal](hotelmeal.jpeg)
 
-![Quarantine meal 2](../assets/uktochina/hotelmeal2.jpeg)
+![Quarantine meal 2](hotelmeal2.jpeg)
 
 On the 14th day of my quarantine, I got transferred from Jiaxing to Hangzhou and started the final 7 days of my quarantine. The hotel I stayed in was a relatively old hotel, but I was on a very high floor so the view was better than the previous hotels.
 
-![The view outside the last hotel](../assets/uktochina/view.jpeg)
+![The view outside the last hotel](view.jpeg)
 
 ## A Short Summary
 This is my experience travelling from the UK to China during the pandemic. My quarantine days are considered to be short. Some provinces require people to quarantine for 28 days. It's hard for Chinese people to enter China, not to mention foreigners.
