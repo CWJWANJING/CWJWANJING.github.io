@@ -1,7 +1,7 @@
 ---
 title: An international student in Edinburgh - Part 1
 date: 2020-06-04
-slug: Edinburgh
+slug: "/blog/Edinburgh/"
 ---
 
 

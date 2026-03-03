@@ -1,7 +1,7 @@
 ---
 title: Mukulele - Ukulele learning app
 date: 2022-02-19
-slug: ukuleleLearningApp
+slug: "/blog/ukuleleLearningApp/"
 ---
 
 

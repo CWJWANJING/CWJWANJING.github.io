@@ -8,6 +8,11 @@ body,
     --theme-ui-colors-primary: #b66881;
 }
 
+/* Utility: accent text color used in posts */
+.text-accent {
+    color: #4881ea !important;
+}
+
 .css-njwo93-Layout {
     padding-top: 0 !important;
     padding-left: 0 !important;

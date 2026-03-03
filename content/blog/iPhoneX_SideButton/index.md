@@ -1,7 +1,7 @@
 ---
 title: Usability Study of iPhone X Side Button
 date: 2021-03-09
-slug: iPhoneXSideButton
+slug: "/blog/iPhoneXSideButton/"
 ---
 I performed a study regarding the usability of the iPhone X Side Button in 2020 as a course project for the course *Human Factor: Working with Users*. Back then, social distancing just introduced due to COVID-19, I did the study a bit differently...
 

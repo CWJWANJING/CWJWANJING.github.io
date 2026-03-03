@@ -1,7 +1,7 @@
 ---
 title: An international student in Edinburgh - Part 2
 date: 2020-06-16
-slug: Riego-street
+slug: "/blog/Riego-street/"
 ---
 
 I studied A levels, a British qualification, in order to study abroad. After my A levels, I decided to go to the University of Edinburgh. This is a story about how I got my accommodation in Year 1, and how it turned out.

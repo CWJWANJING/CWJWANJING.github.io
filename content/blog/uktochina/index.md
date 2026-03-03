@@ -1,7 +1,7 @@
 ---
 title: How I travelled from the UK to China during the pandemic
 date: 2022-02-16
-slug: enterChinaduringCOVID
+slug: "/blog/enterChinaduringCOVID/"
 ---
 
 ## Trip Preparation
