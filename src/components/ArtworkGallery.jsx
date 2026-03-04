@@ -1,5 +1,6 @@
 import * as React from "react"
 import GalleryElements from "./GalleryElements"
+import ImageModal from "./ImageModal"
 
 export default function ArtworkGallery() {
     const [modalSrc, setModalSrc] = React.useState(null)
@@ -90,28 +91,14 @@ export default function ArtworkGallery() {
                 <GalleryElements />
             </div>
 
-            {(modalSrc || modalHtml) && (
-                <div className="art-modal-overlay" onClick={(e) => { if (e.target === e.currentTarget) { setModalSrc(null); setModalHtml(null); } }}>
-                        <div className="art-modal-content" onClick={(e) => {
-                            // clicking the big image closes modal
-                            if (e.target.tagName === 'IMG' || e.target.tagName === 'PICTURE') {
-                                setModalSrc(null)
-                                setModalHtml(null)
-                                setCurrentIndex(-1)
-                                setGalleryItems([])
-                            }
-                        }}>
-                            <button className="art-modal-close" onClick={() => { setModalSrc(null); setModalHtml(null); setCurrentIndex(-1); setGalleryItems([]) }} aria-label="Close">×</button>
-                            <button className="art-modal-prev" onClick={(e) => { e.stopPropagation(); showPrev() }} aria-label="Previous">‹</button>
-                            <button className="art-modal-next" onClick={(e) => { e.stopPropagation(); showNext() }} aria-label="Next">›</button>
-                            {modalHtml ? (
-                                <div dangerouslySetInnerHTML={{ __html: modalHtml }} />
-                            ) : (
-                                modalSrc && <img src={modalSrc} alt="Artwork" />
-                            )}
-                        </div>
-                </div>
-            )}
+            <ImageModal
+                modalHtml={modalHtml}
+                modalSrc={modalSrc}
+                onClose={() => { setModalSrc(null); setModalHtml(null); setCurrentIndex(-1); setGalleryItems([]) }}
+                onPrev={showPrev}
+                onNext={showNext}
+                showNav={true}
+            />
         </>
     )
 }

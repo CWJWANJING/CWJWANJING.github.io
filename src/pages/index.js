@@ -17,9 +17,9 @@ export default function home() {
       <Navigation />
       <h1 className="pageTitle" style={style}>Wanjing Chen</h1>
       <Me />
+      <HomeArtwork />
       <HomeBlogs />
       <HomeProjects />
-      <HomeArtwork />
       <WebFooter />
     </>
   )

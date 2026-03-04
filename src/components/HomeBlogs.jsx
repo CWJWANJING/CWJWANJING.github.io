@@ -7,7 +7,7 @@ const HomeBlogs = () => {
     return (
         <div className="container">
             <h2 className="text-center">Blogs</h2>
-            <div style={{ textAlign: 'right', paddingBottom: '2%' }}>
+            <div className="homeblogs-more">
                 <a className="text-right" href="/blog">More blogs</a>
             </div>
             <div className="row">
