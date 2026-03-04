@@ -88,6 +88,16 @@ export default function ArtworkGallery() {
         <>
             <div style={{ marginLeft: "2%", marginRight: "2%" }} onClick={onContainerClick}>
                 <h1 className="pageTitle" style={{ textAlign: "center" }}>My Artwork</h1>
+                <p style={{ textAlign: "center" }}>
+                    Welcome to my artwork gallery! Explore my collection of digital and traditional pieces. If you are interested in my work, you can find me on {' '}
+                    <a href="https://www.instagram.com/miaonaidoodles/" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a> and {' '}
+                    <a href="https://www.tiktok.com/@miaonaidoodles" target="_blank" rel="noopener noreferrer">
+                        TikTok
+                    </a>
+                    😊.
+                </p>
                 <GalleryElements />
             </div>
 
