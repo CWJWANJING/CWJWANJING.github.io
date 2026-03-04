@@ -89,12 +89,12 @@ a {
 
 .btn {
     color: #fffaf2;
-    background-color: #b66881 !important;
-    border-color: #b66881 !important;
+    background-color: #4881ea !important;
+    border-color: #4881ea !important;
 }
 
 .btn:hover {
-    background-color: #a04b67 !important;
+    background-color: #3346ae !important;
 }
 
 .gallery {
@@ -259,4 +259,9 @@ article {
     margin-left: 42.25%;
     margin-right: 42.25%;
     width: 15%;
+}
+
+/* Make project card titles match the site's blue accent */
+.project h2 {
+    color: #4881ea;
 }

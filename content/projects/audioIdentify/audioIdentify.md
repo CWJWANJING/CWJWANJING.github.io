@@ -1,6 +1,6 @@
 ---
 name: Audio Identification
-image: shazambrand
+image: ./shazambrand.jpeg
 link-text: GitHub Link
 link-href: https://github.com/CWJWANJING/Audio-Identification
 date: "2021-04-01"

@@ -1,6 +1,6 @@
 ---
 name: Mukulele
-image: Mukulele
+image: ./Mukulele.jpg
 link-text: GitHub Link
 link-href: https://github.com/CWJWANJING/Mukulele
 date: "2021-10-01"

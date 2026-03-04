@@ -1,6 +1,6 @@
 ---
 name: Deeper Blue
-image: deeperblueleaflet
+image: ./deeperblueleaflet.png
 link-text: GitHub Link
 link-href: https://github.com/deeper-blue/sdp-robot
 date: "2019-04-01"

@@ -1,6 +1,6 @@
 ---
 name: Above The Ashes
-image: aboveTheAshesPicture
+image: ./aboveTheAshesPicture.jpg
 link-text: GitHub Link
 link-href: https://github.com/CWJWANJING/Above-The-Ashes
 date: "2020-12-01"

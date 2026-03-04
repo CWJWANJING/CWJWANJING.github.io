@@ -1,6 +1,6 @@
 ---
 name: Project Name Generator
-image: projectNameGnerator
+image: ./projectNameGnerator.png
 link-text: GitHub Link
 link-href: https://github.com/CWJWANJING/project-name-generator
 date: "2022-11-01"

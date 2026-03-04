@@ -52,3 +52,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         });
     });
 };
+
+// Ensure frontmatter.image resolves to a File node so we can use childImageSharp
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: File @fileByRelativePath
+    }
+  `);
+};

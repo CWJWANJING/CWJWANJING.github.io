@@ -29,7 +29,7 @@
 }
 
 .blog-list-item h2 a:hover {
-    color: #a04b67;
+    color: #3346ae;
     /* subtle contrasting hover for good UX */
     text-decoration: underline;
 }
