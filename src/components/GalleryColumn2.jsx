@@ -6,52 +6,28 @@ export default function GalleryColumn2() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/autumn.png"}
-                    alt="Autumn"
+                <StaticImage src={"../images/artwork/维纳斯的诞生.jpg"}
+                    alt="The Birth of Venus in my asrt style"
                     className="gallery-image" />
-                <div className="figcaption">Autumn</div>
+                <div className="figcaption">The Birth of Venus in my art style</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/Amelie.png"}
-                    alt="Amelie"
+                <StaticImage src="../images/artwork/希腊圣殿下的小猫咪.jpg"
+                    alt="Greek temple kitten"
                     className="gallery-image" />
-                <div className="figcaption">Amelie</div>
+                <div className="figcaption">Greek temple kitten</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/thesummer.png"}
-                    alt="The Summer"
+                <StaticImage src="../images/artwork/克罗地亚的城墙.jpg"
+                    alt="Old city wall in Croatia"
                     className="gallery-image" />
-                <div className="figcaption">The Summer</div>
+                <div className="figcaption">Old city wall in Croatia</div>
             </div>
             <div className="gallery-link">
-                <StaticImage src={"../images/artwork/toot.PNG"}
-                    alt="Too Cute To Toot"
+                <StaticImage src="../images/artwork/waterstonecafe1.jpeg"
+                    alt="waterstone cafe painting"
                     className="gallery-image" />
-                <div className="figcaption">Too Cute To Toot</div>
-            </div>
-            <div className="gallery-link">
-                <StaticImage src={"../images/artwork/picnic.PNG"}
-                    alt="Picnic"
-                    className="gallery-image" />
-                <div className="figcaption">Picnic</div>
-            </div>
-            <div className="gallery-link">
-                <StaticImage src={"../images/artwork/mokapot.PNG"}
-                    alt="Moka Pot"
-                    className="gallery-image" />
-                <div className="figcaption">Moka pot</div>
-            </div>
-            <div className="gallery-link">
-                <StaticImage src={"../images/artwork/merrychirstmas.JPG"}
-                    alt="Merry Christmas!"
-                    className="gallery-image" />
-                <div className="figcaption">Merry Christmas!</div>
-            </div>
-            <div className="gallery-link">
-                <StaticImage src={"../images/artwork/leftright-1.png"}
-                    alt="Left"
-                    className="gallery-image" />
-                <div className="figcaption">Left</div>
+                <div className="figcaption">Waterstone cafe</div>
             </div>
         </div>
     )
