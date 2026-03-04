@@ -4,6 +4,7 @@ import WebFooter from "../components/WebFooter"
 import { useStaticQuery, graphql } from "gatsby" // to query for image data
 import "../styles/slideshow.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import ImageEnlarge from "../components/ImageEnlarge"
 
 export default function Webcomics() {
   const [activeImageNum, setCurrent] = React.useState(0);
@@ -44,7 +45,11 @@ export default function Webcomics() {
               className={ind === activeImageNum ? "currentSlide active" : "currentSlide"}
               key={ind}
             >
-              {ind === activeImageNum && <GatsbyImage className="slide" image={currentSlide} alt=""/>}
+              {ind === activeImageNum && (
+                <div className="enlargeable gallery-link">
+                  <GatsbyImage className="slide" image={currentSlide} alt="" imgStyle={{ width: '100%' }} />
+                </div>
+              )}
             </div>
           );
         })}
@@ -57,10 +62,11 @@ export default function Webcomics() {
               onClick={() => {
                 setCurrent(idx);
               }}></div>
-              ))}
+          ))}
         </div>
       </div>
       <WebFooter />
+      <ImageEnlarge />
     </>
   )
 }

@@ -3,7 +3,8 @@
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 1200px;
+  min-height: 100vh;
 }
 
 .slideshowSlider {
@@ -12,16 +13,41 @@
 }
 
 .slide {
-  display: inline-block;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   border-radius: 40px;
+}
+
+/* ensure only the active slide takes space */
+.currentSlide {
+  display: none;
+}
+
+.currentSlide.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Image scaling to fit viewport without cropping */
+.slide img {
+  object-fit: contain;
+  max-height: 100vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Buttons */
 .slideshowDots {
   text-align: center;
 }
+
 .slideshowDot {
   display: inline-block;
   height: 20px;

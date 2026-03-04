@@ -281,10 +281,10 @@ article {
 .art-modal-content {
     max-width: 92vw;
     max-height: 92vh;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem 0.5rem;
     overflow: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -292,7 +292,6 @@ article {
 .art-modal-content picture {
     display: block;
     max-width: 100%;
-    max-height: calc(92vh - 3rem);
     height: auto;
     border-radius: 6px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);

@@ -19,7 +19,7 @@ function Me() {
                 className="avatarImage"
                 layout="constrained"
             />
-            <P>Hi! My name is Wanjing. I'm a software developer who draws and writes. Nice to meet you! 😊</P>
+            <P>Hi! My name is Wanjing. I'm a freelance artist and previously a software developer. Nice to meet you! 😊</P>
         </>
     )
 }
