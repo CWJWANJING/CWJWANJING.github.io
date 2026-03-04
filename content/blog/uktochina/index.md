@@ -75,7 +75,7 @@ I made a mistake by taking the overnight bag with me to the testing point. It wa
 
 ![The overnight bag collection point](overnightbagcollection.jpeg)
 
-###Stay Overnight at the Airport
+### Stay Overnight at the Airport
 The overnight bag includes:
 
 - a pair of slippers
