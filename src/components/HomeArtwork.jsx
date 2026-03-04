@@ -17,7 +17,7 @@ const HomeArtwork = () => {
                         <StaticImage className="gallery-image card-img-top" src="../images/artwork/维纳斯的诞生.jpg" alt="Card image cap" />
                     </div>
                     <div className="card-body">
-                        <h5 className="card-title">The Birth of Venus in my asrt style</h5>
+                        <h5 className="card-title">The Birth of Venus in my art style</h5>
                     </div>
                 </div>
                 <div className="col-lg-4 card">

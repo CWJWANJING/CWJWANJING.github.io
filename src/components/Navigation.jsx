@@ -3,15 +3,15 @@ import { Link } from 'gatsby';
 import "../styles/global.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Nav, Navbar } from 'react-bootstrap';
-import cv from '../../static/cv.pdf'
+// import cv from '../../static/cv.pdf'
 import { StaticImage } from 'gatsby-plugin-image';
 
 const navItems = [
   { text: "Home", link: "/" },
-  { text: "Projects", link: "/projects" },
   { text: "Art", link: "/art" },
   { text: "Web Comics", link: "/webcomics" },
   { text: "Blogs", link: "/blog" },
+  { text: "Projects", link: "/projects" },
 ]
 
 const Navigation = () => {
@@ -42,11 +42,11 @@ const Navigation = () => {
       <Navbar.Collapse>
         <Nav className="ms-auto navbar-nav">
           {renderedNavItems}
-          <Nav.Item className="nav-link">
+          {/* <Nav.Item className="nav-link">
             <a className="nav-link" href={cv}>
               CV
             </a>
-          </Nav.Item>
+          </Nav.Item> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -7,7 +7,7 @@ export default function GalleryColumn2() {
         <div className="gallery-column">
             <div className="gallery-link">
                 <StaticImage src={"../images/artwork/维纳斯的诞生.jpg"}
-                    alt="The Birth of Venus in my asrt style"
+                    alt="The Birth of Venus in my art style"
                     className="gallery-image" />
                 <div className="figcaption">The Birth of Venus in my art style</div>
             </div>
