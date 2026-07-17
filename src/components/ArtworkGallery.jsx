@@ -97,6 +97,7 @@ export default function ArtworkGallery() {
                         TikTok
                     </a>
                     😊.
+                    I also draw comic strips here: <a href="/webcomics">Webcomics</a>.
                 </p>
                 <GalleryElements />
             </div>
