@@ -15,6 +15,8 @@ const navItems = [
 ]
 
 const Navigation = () => {
+  const [showSupportPanel, setShowSupportPanel] = React.useState(false)
+
   const renderedNavItems = navItems.map((navItem) =>
     <Nav.Item className='nav-link' key={navItem.text}>
       <Nav.Link eventKey={navItem.text} as={Link} to={navItem.link}>
@@ -23,33 +25,69 @@ const Navigation = () => {
     </Nav.Item>
   );
 
-  return (
-    <Navbar collapseOnSelect expand="lg">
-      <div className='noPaddingsLeft'>
-        <Link to="/">
-          <StaticImage
-            src={"../images/logo.png"}
-            className="logo"
-            alt="my logo"
-            placeholder="blurred"
-            layout="constrained"
-          />
-        </Link>
-        <Link to="/" id="navbar-name">Wanjing</Link>
-      </div>
+  const openSupportPanel = () => {
+    setShowSupportPanel(true)
+  }
 
-      <Navbar.Toggle className='navbar-dark' />
-      <Navbar.Collapse>
-        <Nav className="ms-auto navbar-nav">
-          {renderedNavItems}
-          {/* <Nav.Item className="nav-link">
-            <a className="nav-link" href={cv}>
-              CV
-            </a>
-          </Nav.Item> */}
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+  const closeSupportPanel = () => {
+    setShowSupportPanel(false)
+  }
+
+  return (
+    <>
+      <Navbar collapseOnSelect expand="lg">
+        <div className='noPaddingsLeft'>
+          <Link to="/">
+            <StaticImage
+              src={"../images/logo.png"}
+              className="logo"
+              alt="my logo"
+              placeholder="blurred"
+              layout="constrained"
+            />
+          </Link>
+          <Link to="/" id="navbar-name">Wanjing</Link>
+        </div>
+
+        <Navbar.Toggle className='navbar-dark' />
+        <Navbar.Collapse>
+          <Nav className="ms-auto navbar-nav">
+            {renderedNavItems}
+            <Nav.Item className='nav-link'>
+              <button
+                type="button"
+                className="btn btn-primary support-button"
+                onClick={openSupportPanel}
+              >
+                Support
+              </button>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+      {showSupportPanel && (
+        <div className="support-panel">
+          <div className="support-panel-header">
+            <span></span>
+            <button
+              type="button"
+              className="btn btn-secondary btn-sm"
+              onClick={closeSupportPanel}
+            >
+              Close
+            </button>
+          </div>
+          <iframe
+            id="kofiframe"
+            src="https://ko-fi.com/miaonaidoodles/?hidefeed=true&widget=true&embed=true&preview=true"
+            style={{ border: 'none', width: '100%', padding: '4px', background: '#f9f9f9' }}
+            height="712"
+            title="miaonaidoodles"
+          />
+        </div>
+      )}
+    </>
   );
 };
 

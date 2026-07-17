@@ -261,6 +261,30 @@ article {
     width: 15%;
 }
 
+.support-panel {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(72, 129, 234, 0.25);
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+.support-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.support-panel-header span {
+    font-weight: bold;
+    color: #3346ae;
+}
+
+.support-button {
+    min-width: 110px;
+}
+
 /* Make project card titles match the site's blue accent */
 .project h2 {
     color: #4881ea;
