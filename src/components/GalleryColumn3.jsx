@@ -6,6 +6,12 @@ export default function GalleryColumn3() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
+                <StaticImage src="../images/artwork/很小的螃蟹.jpg"
+                    alt="A teeny tiny crab"
+                    className="gallery-image" />
+                <div className="figcaption">A teeny tiny crab</div>
+            </div>
+            <div className="gallery-link">
                 <StaticImage src="../images/artwork/克罗地亚小猫咪吃鱼.jpg"
                     alt="Croatian kitten eating fish"
                     className="gallery-image" />
