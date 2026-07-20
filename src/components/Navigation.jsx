@@ -12,6 +12,7 @@ const navItems = [
   { text: "Web Comics", link: "/webcomics" },
   { text: "Blogs", link: "/blog" },
   { text: "Projects", link: "/projects" },
+  { text: "Shop The Merch", link: "https://miaonaidoodles.printify.me/", external: true },
 ]
 
 const Navigation = () => {
@@ -19,9 +20,21 @@ const Navigation = () => {
 
   const renderedNavItems = navItems.map((navItem) =>
     <Nav.Item className='nav-link' key={navItem.text}>
-      <Nav.Link eventKey={navItem.text} as={Link} to={navItem.link}>
-        {navItem.text}
-      </Nav.Link>
+      {navItem.external ? (
+        <Nav.Link
+          eventKey={navItem.text}
+          href={navItem.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-cta-link"
+        >
+          {navItem.text}
+        </Nav.Link>
+      ) : (
+        <Nav.Link eventKey={navItem.text} as={Link} to={navItem.link}>
+          {navItem.text}
+        </Nav.Link>
+      )}
     </Nav.Item>
   );
 
@@ -54,13 +67,13 @@ const Navigation = () => {
           <Nav className="ms-auto navbar-nav">
             {renderedNavItems}
             <Nav.Item className='nav-link'>
-              <button
-                type="button"
-                className="btn btn-primary support-button"
+              <Nav.Link
+                className="nav-cta-link"
                 onClick={openSupportPanel}
+                href="#"
               >
-                Support
-              </button>
+                Fuel My Creativity
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

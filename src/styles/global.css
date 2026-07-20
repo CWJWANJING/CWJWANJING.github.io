@@ -97,6 +97,37 @@ a {
     background-color: #3346ae !important;
 }
 
+.nav-cta-button,
+.nav-cta-link {
+    background: #fffaf2 !important;
+    color: #4881ea !important;
+    border: 2px solid #4881ea !important;
+    border-radius: 999px;
+    padding: 0.45rem 0.95rem;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-cta-button:hover,
+.nav-cta-link:hover {
+    background: #fef6ea !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+}
+
+.nav-cta-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.nav-cta-button {
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
 .gallery {
     display: flex;
     transition: .3s;
