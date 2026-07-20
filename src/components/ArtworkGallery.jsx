@@ -97,7 +97,13 @@ export default function ArtworkGallery() {
                         TikTok
                     </a>
                     😊.
-                    I also draw comic strips here: <a href="/webcomics">Webcomics</a>.
+                    I also draw <a href="/webcomics">comic strips</a>. If you enjoys my artwork, you can support me by buying my merch on {' '}
+                    <a href="https://miaonaidoodles.printify.me/" target="_blank" rel="noopener noreferrer">
+                        Printify
+                    </a> or buying me a coffee on{' '}
+                    <a href="https://ko-fi.com/miaonaidoodles" target="_blank" rel="noopener noreferrer">
+                        Ko-fi
+                    </a>.❤
                 </p>
                 <GalleryElements />
             </div>
