@@ -6,6 +6,12 @@ export default function GalleryColumn4() {
     return (
         <div className="gallery-column ">
             <div className="gallery-link">
+                <StaticImage src="../images/artwork/octopustapas.jpg"
+                    alt="Octopus tapas"
+                    className="gallery-image" />
+                <div className="figcaption">Octopus tapas</div>
+            </div>
+            <div className="gallery-link">
                 <StaticImage src="../images/artwork/me.jpeg"
                     alt="Portrait"
                     className="gallery-image" />

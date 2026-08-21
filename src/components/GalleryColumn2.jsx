@@ -6,6 +6,12 @@ export default function GalleryColumn2() {
     return (
         <div className="gallery-column">
             <div className="gallery-link">
+                <StaticImage src={"../images/artwork/StIves.jpg"}
+                    alt="The sea view in St Ives, Cornwall, UK"
+                    className="gallery-image" />
+                <div className="figcaption">The sea view in St Ives, Cornwall, UK</div>
+            </div>
+            <div className="gallery-link">
                 <StaticImage src={"../images/artwork/维纳斯的诞生.jpg"}
                     alt="The Birth of Venus in my art style"
                     className="gallery-image" />

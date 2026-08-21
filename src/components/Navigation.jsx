@@ -12,7 +12,7 @@ const navItems = [
   { text: "Web Comics", link: "/webcomics" },
   { text: "Blogs", link: "/blog" },
   { text: "Projects", link: "/projects" },
-  { text: "Shop The Merch", link: "https://miaonaidoodles.printify.me/", external: true },
+  { text: "Art Shop", link: "https://miaonaidoodles.com/", external: true },
 ]
 
 const Navigation = () => {
